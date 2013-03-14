@@ -25,6 +25,10 @@
 		C974373C16F27306005D8DD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974371116F27305005D8DD3 /* Foundation.framework */; };
 		C974374416F27306005D8DD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C974374216F27306005D8DD3 /* InfoPlist.strings */; };
 		C974374716F27306005D8DD3 /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C974374616F27306005D8DD3 /* MyAppTests.m */; };
+		C974375C16F28266005D8DD3 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = C974375816F28266005D8DD3 /* iPad.png */; };
+		C974375D16F28266005D8DD3 /* iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C974375916F28266005D8DD3 /* iPad@2x.png */; };
+		C974375E16F28266005D8DD3 /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = C974375A16F28266005D8DD3 /* iPhone.png */; };
+		C974375F16F28266005D8DD3 /* iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C974375B16F28266005D8DD3 /* iPhone@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		C974374316F27306005D8DD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C974374516F27306005D8DD3 /* MyAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppTests.h; sourceTree = "<group>"; };
 		C974374616F27306005D8DD3 /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
+		C974375816F28266005D8DD3 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
+		C974375916F28266005D8DD3 /* iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad@2x.png"; sourceTree = "<group>"; };
+		C974375A16F28266005D8DD3 /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		C974375B16F28266005D8DD3 /* iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,10 @@
 		C974371516F27305005D8DD3 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				C974375816F28266005D8DD3 /* iPad.png */,
+				C974375916F28266005D8DD3 /* iPad@2x.png */,
+				C974375A16F28266005D8DD3 /* iPhone.png */,
+				C974375B16F28266005D8DD3 /* iPhone@2x.png */,
 				C974371E16F27305005D8DD3 /* CAFAppDelegate.h */,
 				C974371F16F27305005D8DD3 /* CAFAppDelegate.m */,
 				C974372716F27305005D8DD3 /* MainStoryboard_iPhone.storyboard */,
@@ -246,6 +258,10 @@
 				C974372616F27305005D8DD3 /* Default-568h@2x.png in Resources */,
 				C974372916F27305005D8DD3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				C974372C16F27305005D8DD3 /* MainStoryboard_iPad.storyboard in Resources */,
+				C974375C16F28266005D8DD3 /* iPad.png in Resources */,
+				C974375D16F28266005D8DD3 /* iPad@2x.png in Resources */,
+				C974375E16F28266005D8DD3 /* iPhone.png in Resources */,
+				C974375F16F28266005D8DD3 /* iPhone@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
